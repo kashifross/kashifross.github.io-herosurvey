@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700" rel="stylesheet">
+
+    <!-- CSS Stylesheet -->
+    <link rel="stylesheet" type="text/css" media="screen" href="herostyles3.css" />
+    
+</head>
+<body>
+
+        <h2>Hero Association Application</h2>
+        
+        
+        <div class="container">
+            <p id="description">This application will be submitted along with your psychological profile. Please take time to consider your answers. Also remember that the minimum age for all heroes is 18 years old. And we, at Hero Association, believe that you should spend more time with your kids or cat if you are older than 35.</p>
+
+            <form>
+            <div class="row">
+                <div class="col-25">
+                <label for="name">* Full Name</label>
+                </div>
+                <div class="col-75">
+                <input type="text" id="name" name="fullname" placeholder="Your government issued name" required>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-25">
+                <label for="nickname">* Secret Identity</label>
+                </div>
+                <div class="col-75">
+                <input type="text" id="nickname" name="nickname" placeholder="This cannot be changed" required>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-25">
+                <label for="age">* Age</label>
+                </div>
+                <div class="col-75">
+                <input type="number" id="age" name="age" min="18" max="35" placeholder="Ages 18-35 only" required>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-25">
+                <label for="industry">Present Industry</label>
+                </div>
+                <div class="col-75">
+                <select id="industry" name="industry">
+                        <option></option>
+                        <option>Accounting</option>
+                        <option>Advertising</option>
+                        <option>Banking</option>
+                        <option>Business</option>
+                        <option>Charity</option>
+                        <option>Construction</option>
+                        <option>Creative Design</option>
+                        <option>Customer Service</option>
+                        <option>Editorial</option>
+                        <option>Education</option>
+                        <option>Energy</option>
+                        <option>Engineering</option>
+                        <option>Environmental</option>
+                        <option>Executive</option>
+                        <option>Finance</option>
+                        <option>Food Services</option>
+                        <option>Government</option>
+                        <option>Herorics</option>
+                        <option>Healthcare</option>
+                        <option>Hospitality</option>
+                        <option>Human Resources</option>
+                        <option>Informational Technology</option>
+                        <option>Insurance</option>
+                        <option>Legal</option>
+                        <option>Maintenance</option>
+                        <option>Manufacturing</option>
+                        <option>Marketing</option>
+                        <option>Media</option>
+                        <option>Military</option>
+                        <option>Personal Services</option>
+                        <option>Production and Operations</option>
+                        <option>Quality Assurance</option>
+                        <option>Real Estate</option>
+                        <option>Religious</option>
+                        <option>Research and Development</option>
+                        <option>Retail</option>
+                        <option>Sales</option>
+                        <option>Science</option>
+                        <option>Security</option>
+                        <option>Skilled Trade</option>
+                        <option>Sports</option>
+                        <option>Student</option>
+                        <option>Technology</option>
+                        <option>Telecommunication</option>
+                        <option>Transportation</option>
+                        <option>Travel</option>
+                        <option>Web</option>
+                </select>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-25">
+                <label for="age">Location preference</label>
+                </div>
+                <div class="col-75">
+                    <ul style="list-style: none;">
+                        <li><input type="radio" name="reason" value="1">Safe side of town</li>
+                        <li><input type="radio" name="reason" value="2">Friendly neighborhood</li>
+                        <li><input type="radio" name="reason" value="3">Urban area</li>
+                        <li><input type="radio" name="reason" value="4">Rougher side of town</li>
+                        <li><input type="radio" name="reason" value="5">Wherever there's danger</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="row">
+                    <div class="col-25">
+                    <label for="industry">Who inspires you most</label>
+                    </div>
+                    <div class="col-75">
+                    <select id="industry" name="industry">
+                            <option></option>
+                            <option>Batman</option>
+                            <option>Black Panther</option>
+                            <option>Captain America</option>
+                            <option>Gamora</option>
+                            <option>Goku</option>
+                            <option>Iron Man</option>
+                            <option>Saitama</option>
+                            <option>Spiderman</option>
+                            <option>Superman</option>
+                            <option>Thor</option>
+                            <option>Tsunade</option>
+                            <option>Wonder Woman</option>
+                            <option>Yoruichi Shihouin</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-25">
+                <label for="age">Superpowers</label>
+                </div>
+                <div class="col-75">
+                    <ul style="list-style: none;">
+                        <li><input type="checkbox" name="reason" value="1">Invisibility</li>
+                        <li><input type="checkbox" name="reason" value="2">Super Strength</li>
+                        <li><input type="checkbox" name="reason" value="3">Healing</li>
+                        <li><input type="checkbox" name="reason" value="4">Invulnerability</li>
+                        <li><input type="checkbox" name="reason" value="5">Time Travel</li>
+                        <li><input type="checkbox" name="reason" value="5">Super Vision</li>
+                        <li><input type="checkbox" name="reason" value="5">Telepathy</li>
+                        <li><input type="checkbox" name="reason" value="5">Super Speed</li>
+                        <li><input type="checkbox" name="reason" value="5">Weather Manipulation</li>
+                        <li><input type="checkbox" name="reason" value="5">Animal Whispering</li>
+                        <li><input type="checkbox" name="reason" value="5">Immortality</li>
+                        <li><input type="checkbox" name="reason" value="5">Super Intelligence</li>
+                        <li><input type="checkbox" name="reason" value="5">Mind Control</li>
+                        <li><input type="checkbox" name="reason" value="5">Flight</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-25">
+                <label for="explain">Explain your Superpowers</label>
+                </div>
+                <div class="col-75">
+                <textarea id="explain" name="explain" placeholder="Include any powers not listed above..." style="height:200px"></textarea>
+                </div>
+            </div>
+            <div class="row">
+                <input type="submit" value="Submit">
+            </div>
+            </form>
+            </div>
+        
+        </body>
+        </html>
+        
